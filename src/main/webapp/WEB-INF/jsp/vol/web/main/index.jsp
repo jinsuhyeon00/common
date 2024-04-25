@@ -11,7 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-   <c:if test="${loginVO != null}">
+    <c:if test="${loginVO != null}">
         ${loginVO.name}(${loginVO.id})<spring:message code="comCmm.unitContent.2"/> <a href="${pageContext.request.contextPath }/uat/uia/actionLogout.do"><spring:message code="comCmm.unitContent.3"/></a>
     </c:if>
     <c:if test="${loginVO == null }">

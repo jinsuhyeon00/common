@@ -1,4 +1,4 @@
-package egovframework.com.vol.web.main;
+package vol.web.main;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
